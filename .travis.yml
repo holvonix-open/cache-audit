@@ -16,9 +16,9 @@ before_script:
 script: yarn test-coverage && yarn e2e-test-coverage
 
 stages:
+  - name: test
   - name: release
     if: branch = master AND type = push
-
 jobs:
   include:
     - stage: release
