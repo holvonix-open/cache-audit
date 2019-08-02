@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/holvonix-open/cache-audit/compare/v2.0.0...v2.1.0) (2019-08-02)
+
+
+### Features
+
+* support node 12 too ([e1a26bb](https://github.com/holvonix-open/cache-audit/commit/e1a26bb))
+
 # [2.0.0](https://github.com/holvonix-open/cache-audit/compare/v1.0.0...v2.0.0) (2019-08-02)
 
 
