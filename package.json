@@ -1,13 +1,17 @@
 {
   "name": "cache-audit",
-  "version": "0.0.1-alpha",
+  "version": "1.0.0",
   "description": "Converts your Yarn cache list into package.json files for security auditing",
   "repository": {
     "type": "git",
     "url": "https://github.com/holvonix-open/cache-audit.git"
   },
   "keywords": [
-    "security", "yarn", "audit", "cache", "npm"
+    "security",
+    "yarn",
+    "audit",
+    "cache",
+    "npm"
   ],
   "engines": {
     "node": "^10.0.0",
