@@ -12,10 +12,15 @@ before_script:
   - export FAKE_HOSTNAME=travis-box
 script: yarn test-coverage && yarn e2e-test-coverage
 
+stages:
+  - name: release
+    if: branch = master AND type = push
+
 jobs:
   include:
     - stage: release
       node_js: lts/*
+      script: skip
       deploy:
         provider: script
         skip_cleanup: true
