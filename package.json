@@ -14,7 +14,7 @@
     "npm"
   ],
   "engines": {
-    "node": "^10.0.0",
+    "node": "^10.0.0 || ^12.0.0",
     "yarn": "^1.0.0"
   },
   "bin": {
@@ -49,7 +49,7 @@
   "scripts": {
     "t": "yarn fix && yarn test --grep='#slow' --invert",
     "cleantests": "rm -rf *.lcov .nyc_output coverage",
-    "clean": "gts clean",
+    "clean": "gts clean && yarn cleantests",
     "start": "node build/src/bin.js",
     "debug": "node --inspect build/src/bin.js",
     "cleanstart": "yarn clean; yarn start",
@@ -59,6 +59,9 @@
     "lint": "yarn fix && yarn run check",
     "check": "gts check",
     "compile": "tsc -p .",
+    "e2e-test-coverage": "yarn run e2e-test && nyc report --reporter=json && codecov -F e2e -f coverage/*.json",
+    "e2e-test": "yarn clean && yarn run pretest && yarn run e2e-test-inplace",
+    "e2e-test-inplace": "yarn cache list --no-progress --json | nyc node build/src/bin.js",
     "fix": "gts fix",
     "prepare": "yarn clean && yarn run check && yarn run compile",
     "pretest": "yarn run compile",
