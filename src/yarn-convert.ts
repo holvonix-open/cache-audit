@@ -21,6 +21,13 @@ export class YarnConverter {
     registry: string,
     resolved: string
   ) {
+    if (registry !== 'npm') {
+      throw new Error(registry);
+    }
+    if (!resolved.match(/^https?:\/\/registry\.(yarnpkg\.com|npmjs\.org)/)) {
+      // For example, github.com commit references.
+      return resolved;
+    }
     return version;
   }
 

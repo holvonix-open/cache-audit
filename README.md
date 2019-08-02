@@ -9,13 +9,10 @@
 After `yarn global add cache-audit`:
 
 ````bash
-mkdir newdir
-yarn cache list --no-progress --json | yarn-cache-audit > newdir/package.json
-cd newdir
-npm i --package-lock-only
-npm audit
+yarn cache list --no-progress --json | yarn-cache-audit
 ````
 
+You'll get an output of `npm audit --
 
 ## License
 
