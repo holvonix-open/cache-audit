@@ -1,3 +1,15 @@
+## [2.1.1](https://github.com/holvonix-open/cache-audit/compare/v2.1.0...v2.1.1) (2019-08-10)
+
+
+### 📖 Documentation
+
+* clarify license ([647f477](https://github.com/holvonix-open/cache-audit/commit/647f477))
+
+
+### 🔧 Build / Continuous Integration
+
+* switch to release-config-js ([e20f5ec](https://github.com/holvonix-open/cache-audit/commit/e20f5ec))
+
 # [2.1.0](https://github.com/holvonix-open/cache-audit/compare/v2.0.0...v2.1.0) (2019-08-02)
 
 
