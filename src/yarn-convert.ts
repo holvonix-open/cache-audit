@@ -1,4 +1,4 @@
-import { Deps, MultiDeps } from './package';
+import { MultiDeps } from './package';
 
 export interface YarnCacheList {
   type: 'table';
