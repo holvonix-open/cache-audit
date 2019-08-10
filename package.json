@@ -1,6 +1,6 @@
 {
   "name": "cache-audit",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Converts your Yarn cache list into package.json files for security auditing",
   "repository": {
     "type": "git",

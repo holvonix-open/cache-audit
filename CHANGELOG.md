@@ -1,3 +1,17 @@
+## [2.1.2](https://github.com/holvonix-open/cache-audit/compare/v2.1.1...v2.1.2) (2019-08-10)
+
+
+### 💄 Polish
+
+* remove unused import ([6b44ee3](https://github.com/holvonix-open/cache-audit/commit/6b44ee3))
+* remove unused import ([d261922](https://github.com/holvonix-open/cache-audit/commit/d261922))
+
+
+### 📖 Documentation
+
+* add min size badge [skip-release] ([20fbb79](https://github.com/holvonix-open/cache-audit/commit/20fbb79))
+* fix SPDX ([cae0aac](https://github.com/holvonix-open/cache-audit/commit/cae0aac))
+
 ## [2.1.1](https://github.com/holvonix-open/cache-audit/compare/v2.1.0...v2.1.1) (2019-08-10)
 
 
