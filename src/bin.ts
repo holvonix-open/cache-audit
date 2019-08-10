@@ -5,7 +5,7 @@ import * as os from 'os';
 import * as path from 'path';
 import * as child_process from 'child_process';
 
-import { MultiDeps, toPackage, rep, toDepsSets } from './package';
+import { toPackage, rep, toDepsSets } from './package';
 import { YarnConverter } from './yarn-convert';
 import { dump } from './output';
 
