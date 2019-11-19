@@ -1,3 +1,15 @@
+## [2.1.4](https://github.com/holvonix-open/cache-audit/compare/v2.1.3...v2.1.4) (2019-11-19)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** [security] bump https-proxy-agent from 2.2.2 to 2.2.4 ([#48](https://github.com/holvonix-open/cache-audit/issues/48)) ([f03c5aa](https://github.com/holvonix-open/cache-audit/commit/f03c5aa))
+
+
+### 🧦 Miscellaneous
+
+* **deps-dev:** bump @holvonix-open/release-config-js ([#22](https://github.com/holvonix-open/cache-audit/issues/22)) ([7c653ea](https://github.com/holvonix-open/cache-audit/commit/7c653ea))
+
 ## [2.1.3](https://github.com/holvonix-open/cache-audit/compare/v2.1.2...v2.1.3) (2019-08-28)
 
 
