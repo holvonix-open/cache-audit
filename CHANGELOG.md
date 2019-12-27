@@ -1,3 +1,18 @@
+## [2.1.5](https://github.com/holvonix-open/cache-audit/compare/v2.1.4...v2.1.5) (2019-12-27)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** [security] bump handlebars from 4.1.2 to 4.5.3 ([#74](https://github.com/holvonix-open/cache-audit/issues/74)) ([983c3c3](https://github.com/holvonix-open/cache-audit/commit/983c3c3))
+
+
+### 🧦 Miscellaneous
+
+* **deps-dev:** bump @holvonix-open/release-config-js ([#50](https://github.com/holvonix-open/cache-audit/issues/50)) ([42960da](https://github.com/holvonix-open/cache-audit/commit/42960da))
+* **deps-dev:** bump @types/node from 12.7.2 to 12.12.9 ([#49](https://github.com/holvonix-open/cache-audit/issues/49)) ([67d5036](https://github.com/holvonix-open/cache-audit/commit/67d5036))
+* **deps-dev:** bump mocha from 6.2.0 to 6.2.2 ([#30](https://github.com/holvonix-open/cache-audit/issues/30)) ([6629848](https://github.com/holvonix-open/cache-audit/commit/6629848))
+* **deps-dev:** bump typescript from 3.6.2 to 3.7.2 ([#43](https://github.com/holvonix-open/cache-audit/issues/43)) ([ce4f901](https://github.com/holvonix-open/cache-audit/commit/ce4f901))
+
 ## [2.1.4](https://github.com/holvonix-open/cache-audit/compare/v2.1.3...v2.1.4) (2019-11-19)
 
 
