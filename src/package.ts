@@ -22,7 +22,9 @@ export function toDepsSets(md: MultiDeps): Deps[] {
     let normal = 0;
     for (const v of vv) {
       if (!v.match(/^\d/)) {
-        weirdSets.push(new Map<string, string>([[k, v]]));
+        weirdSets.push(
+          new Map<string, string>([[k, v]])
+        );
       } else {
         if (depsSets[normal]) {
           if (depsSets[normal].has(k)) {
@@ -30,7 +32,9 @@ export function toDepsSets(md: MultiDeps): Deps[] {
           }
           depsSets[normal].set(k, v);
         } else {
-          depsSets.push(new Map<string, string>([[k, v]]));
+          depsSets.push(
+            new Map<string, string>([[k, v]])
+          );
         }
         normal++;
       }
