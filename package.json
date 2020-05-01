@@ -63,16 +63,19 @@
     "e2e-test": "yarn clean && yarn run pretest && yarn run e2e-test-inplace",
     "e2e-test-inplace": "yarn cache list --no-progress --json | nyc node build/src/bin.js",
     "fix": "gts fix",
-    "prepare": "yarn clean && yarn run check && yarn run compile",
+    "prepare": "yarn run snyk-protect && yarn clean && yarn run check && yarn run compile",
     "pretest": "yarn run compile",
     "posttest": "yarn run check",
     "preversion": "yarn test",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect"
   },
   "release": {
     "extends": "@holvonix-open/release-config-js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.316.1"
+  },
   "devDependencies": {
     "@holvonix-open/release-config-js": "^1.0.3",
     "@types/mocha": "^5.2.5",
@@ -83,5 +86,6 @@
     "nyc": "^15.0.0",
     "ts-mocha": "^6.0.0",
     "typescript": "~3.7.2"
-  }
+  },
+  "snyk": true
 }
